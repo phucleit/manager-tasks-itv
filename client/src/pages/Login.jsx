@@ -97,13 +97,13 @@ const Login = () => {
           Đăng nhập
         </LoadingButton>
       </Box>
-      <Button
+      {/* <Button
         component={Link}
         to='/signup'
         sx={{ textTransform: 'none' }}
       >
         Bạn chưa có tài khoản? Đăng ký ngay
-      </Button>
+      </Button> */}
     </>
   )
 }
