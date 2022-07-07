@@ -99,7 +99,7 @@ const Sidebar = () => {
             justifyContent: 'space-between'
           }}>
             <Typography variant='body2' fontWeight='700'>
-              {user.username}
+              Xin chào, {user.username}
             </Typography>
             <IconButton onClick={logout}>
               <LogoutOutlinedIcon fontSize='small' />
