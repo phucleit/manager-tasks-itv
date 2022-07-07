@@ -31,7 +31,7 @@ exports.login = async (req, res) => {
         errors: [
           {
             param: 'username',
-            msg: 'Invalid username or password'
+            msg: 'Sai username hoặc password'
           }
         ]
       })
@@ -47,7 +47,7 @@ exports.login = async (req, res) => {
         errors: [
           {
             param: 'username',
-            msg: 'Invalid username or password'
+            msg: 'Sai username hoặc password'
           }
         ]
       })
